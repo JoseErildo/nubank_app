@@ -7,6 +7,7 @@ import 'package:nubank_interface/utils/colors_standart.dart';
 import 'package:nubank_interface/pages/account/account.dart';
 import 'package:nubank_interface/pages/actions/menu_actions.dart';
 import 'package:nubank_interface/pages/credits_card/my_credit_card.dart';
+import 'package:nubank_interface/pages/notifications/notifications_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -33,6 +34,7 @@ class _HomePage extends State<HomePage>{
               MenuItens(),
               Divider(thickness: 1.6,),
               CreditCards(),
+              Notifications()
               
               
             ],

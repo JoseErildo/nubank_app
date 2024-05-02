@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+import 'package:nubank_interface/pages/credits_card/credit_card.dart';
 import 'package:nubank_interface/pages/credits_card/my_credit_card.dart';
 import 'package:nubank_interface/pages/home/model/header.dart';
 import 'package:nubank_interface/utils/colors_standart.dart';
@@ -34,7 +35,9 @@ class _HomePage extends State<HomePage>{
               MenuItens(),
               Divider(thickness: 1.6,),
               CreditCards(),
-              Notifications()
+              Notifications(),
+              Divider(thickness: 1.6,),
+              CreditCard(),
               
               
             ],

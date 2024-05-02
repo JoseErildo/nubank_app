@@ -37,6 +37,7 @@ class CreditCard extends StatelessWidget {
   _textCreditCard(){
     return Row( 
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
       children: [
         Text('Cartão de crédito',
         style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),),
@@ -48,7 +49,6 @@ class CreditCard extends StatelessWidget {
 
   _invoice(){
     return Column(
-      mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text('Fatura atual',
@@ -64,8 +64,6 @@ class CreditCard extends StatelessWidget {
                 fontWeight: FontWeight.bold,
                 ));
             }),
-        Text('50000',
-        style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold,))
       ],
     );
   }

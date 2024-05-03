@@ -7,6 +7,7 @@ import 'package:nubank_interface/pages/investments/investiments.dart';
 import 'package:nubank_interface/pages/account/account.dart';
 import 'package:nubank_interface/pages/actions/menu_actions.dart';
 import 'package:nubank_interface/pages/notifications/notifications_page.dart';
+import 'package:nubank_interface/pages/security/security_life.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -39,7 +40,9 @@ class _HomePage extends State<HomePage>{
               Divider(thickness: 1.6,),
               CreditCard(),
               Divider(thickness: 1.6,),
-              Investiments()
+              Investiments(),
+              Divider(thickness: 1.6,),
+              Security()
               
               
             ],

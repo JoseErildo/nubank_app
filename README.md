@@ -1,16 +1,6 @@
-# nubank_interface
 
-A new Flutter project.
+## Nubank App
 
-## Getting Started
+This application closely mirrors the main page of Nubank.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Presentation](https://github.com/JoseErildo/nubank_app/assets/49826761/bc821c40-12a1-412e-81d9-08ee19d20279)
